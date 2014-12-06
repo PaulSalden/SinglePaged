@@ -1,8 +1,8 @@
 
 
-Design by Tim O'Brien [t413.com](http://t413.com/)
+Design by [Tim O'Brien](http://t413.com/)
 &mdash;
-[SinglePaged theme](https://github.com/t413/SinglePaged)
+[Flat UI Colors](http://flatuicolors.com/)
 &mdash;
-this site is [open source]({{ site.source_link }})
+paulsalden.com is [open source]({{ site.source_link }})
 
