@@ -33,4 +33,5 @@ colors:
   purple:    '#9C27B0'
   orange:    '#FF9800'
   turquoise: '#009688' # actually teal
-  
+
+navbar_color:    '#3F51B5'
