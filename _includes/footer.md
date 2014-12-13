@@ -1,8 +1,8 @@
 
 
-Design by Tim O'Brien [t413.com](http://t413.com/)
+Original design by [Tim O'Brien](https://github.com/t413/SinglePaged)
 &mdash;
-[SinglePaged theme](https://github.com/t413/SinglePaged)
+material design by [Google](http://www.google.com/design/) 
 &mdash;
-this site is [open source]({{ site.source_link }})
+paulsalden.com is [open source]({{ site.source_link }})
 
