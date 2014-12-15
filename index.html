@@ -5,7 +5,7 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="theme-color" content="{{ site.navbar_color }}">
+  <meta name="theme-color" content="{{ site.colors.main }}">
   <title>{{ site.title }}</title>
 	<meta name="keywords" content="{{ site.keywords }}">
 	<meta name="description" content="{{ site.description }}">
@@ -29,7 +29,7 @@
 
     {% for page in site.posts reversed %}
       {% capture id %}{{ page.id | remove:'/' | downcase }}{% endcapture %}
-      <div id="{{id}}" class="section p-{{id}}">
+      <div id="{{id}}" class="section post post-{% cycle 'white', 'white-alt' %}">
         {% if page.icon %}
         <div class="sectiondivider imaged">
           <img src="{{page.icon}}" alt="section icon" />
@@ -59,7 +59,7 @@
     {% endfor %}
 
 
-    <div id="footer" class="section text-black">
+    <div id="footer" class="section">
       <div class="container">
         {% capture foottext %} {% include footer.md %} {% endcapture %}
         {{ foottext | markdownify }}
