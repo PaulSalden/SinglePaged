@@ -19,7 +19,7 @@ title:       "paulsalden.com"
 keywords:    "paul, salden, jekyll, singlepaged"
 description: "my digital portfolio"
 source_link: "https://github.com/PaulSalden/SinglePaged"
-favicon:     #put a path like: "img/favicon.ico"
+favicon:     "img/favicon.png"
 touch_icon:  #put a path like: "img/apple-touch-icon.png"
 google_analytics_key: ## put YOUR key here to enable tracking! (blank to disable)
 
